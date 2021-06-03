@@ -1,3 +1,5 @@
+package `object`
+
 open class Personss() {
     fun eat() = println("Eating food.")
 
@@ -10,7 +12,6 @@ fun main(args: Array<String>) {
     val atheist = object : Personss() {
         override fun pray() = println("I don't pray. I am an atheist.")
     }
-
     atheist.eat()
     atheist.talk()
     atheist.pray()
